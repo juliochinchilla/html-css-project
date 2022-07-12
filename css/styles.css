@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Gelasio:ital,wght@0,700;1,400&family=Great+Vibes&family=Oswald:wght@200;300;400&family=Roboto:wght@100&display=swap");
+
+body {
+	background-color: rgb(199, 199, 197);
+	height: 1600px;
+	margin-top: 120px;
+}
+
+.header {
+	background-image: url(/project/imgs/bitCoin.jpeg);
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.search {
+	font-size: 16px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+	box-shadow: inset 1px 2px 5px rgba (0, 0, 0, 0.15);
+	margin-left: 12px;
+	padding-left: 10px;
+}
+.left::first-letter {
+	font-size: 270%;
+	color: rgb(0, 2, 10);
+}
+.left {
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bolder;
+	margin-left: 30px;
+	width: 150px;
+}
+.center {
+	align-items: center;
+	display: flex;
+	flex: 1;
+	max-width: 500px;
+}
+.search::placeholder {
+	font-family: Roboto, Arial;
+	font-size: 16px;
+}
+.right {
+	align-items: center;
+	display: flex;
+	width: 200px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+p::first-letter {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 250%;
+	color: rgb(7, 0, 11);
+}
+.coding::first-letter {
+	color: rgb(255, 69, 0);
+}
+.our::first-letter {
+	color: rgb(52, 14, 221);
+}
+.variables::first-letter {
+	color: rgb(225, 11, 11);
+}
+h3 {
+	color: black;
+	margin: 0%;
+	padding: 10px 8px 4px 14px;
+}
+.welcome {
+	background-color: rgb(199, 33, 99);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 1px 2px rgb(66, 65, 65);
+	color: rgb(231, 224, 215);
+	cursor: pointer;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+.wel {
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	width: 100%;
+	height: 110px;
+}
+.capsula {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	column-gap: 16px;
+	row-gap: 40px;
+}
+@media (max-width: 750px) {
+	.capsula {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+.projects {
+	background-color: rgb(48, 53, 187);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 1px 2px rgb(66, 65, 65);
+	color: rgb(231, 224, 215);
+	cursor: pointer;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+.pro1 {
+	background-image: url(/project/imgs/coding.jpg);
+	border: 1px solid black;
+	color: white;
+	float: left;
+	font-weight: bolder;
+	margin: 25px 2px 25px 2px;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+.pro2 {
+	background-image: url(/project/imgs/javascript.jpg);
+	float: right;
+	font-weight: bolder;
+	margin: 25px 2px 25px 2px;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border: 1px solid black;
+}
+.pro3 {
+	background-image: url(/project/imgs/variables.jpg);
+	border: 1px solid black;
+	float: left;
+	font-weight: bolder;
+	margin: 25px 2px 25px 2px;
+	color: white;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+.pro4 {
+	background-image: url(/project/imgs/html-and-css-project.jpg);
+	float: right;
+	margin: 25px 2px 25px 2px;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border: 1px solid black;
+}
+.pro5 {
+	background-image: url(/project/imgs/bitCoin.jpeg);
+	float: left;
+	margin: 25px 2px 25px 2px;
+	border: 1px solid black;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+.pro6 {
+	background-image: url(/project/imgs/html-and-css-project.jpg);
+	float: right;
+	margin: 25px 2px 25px 2px;
+	border: 1px solid black;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+.pro7 {
+	background-image: url(/project/imgs/javascript.jpg);
+	float: left;
+	margin: 25px 2px 25px 2px;
+	border: 1px solid black;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.footer {
+	background-color: white;
+	bottom: 0;
+	color: white;
+	left: 0;
+	position: fixed;
+	text-align: left;
+	width: 100%;
+}
+.github {
+	margin: 10px;
+}
+.github:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+.linkedin {
+	cursor: pointer;
+}
+.linkedin:hover {
+	opacity: 0.5;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
